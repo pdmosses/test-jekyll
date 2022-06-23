@@ -1,0 +1,16 @@
+title: Performance test
+description: >- # this means to ignore newlines until "baseurl:"
+  Test for performance issue in Jekyll v4.1.1
+github_username:  pdmosses
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+defaults:
+  -
+    scope:
+      path: "docs"
+    values:
+      layout: "page"
